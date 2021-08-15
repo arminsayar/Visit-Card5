@@ -153,7 +153,7 @@ body {
 	margin-top: 60px;
 	margin-bottom: -60px;
 	margin-right: 70px;
-	
+
 }
 
 .s2b2 {
@@ -179,4 +179,90 @@ body {
 	position: absolute;
 	top: 85px;
 	right: 0;
+}
+
+@media screen and (max-width:1150px) {
+	#sec1-main {
+		flex-direction: column;
+		max-width: 490px;
+		text-align: center;
+	}
+
+	.stars-box {
+		max-width: 490px;
+		flex-direction: column;
+		justify-content: center;
+		margin-top: 30px;
+	}
+
+	.sec1-texts {
+		padding: 0;
+		margin: 0;
+		background-image: url(images/bg-pattern-top-mobile.svg);
+	}
+
+	.sb1 {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.sb2 {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.stars-texts {
+		padding: 0;
+		margin-top: 10px;
+	}
+
+	#sec1-texts>p {
+		width: 300px;
+		line-height: 1.5em;
+		font-weight: 400;
+		color: hsl(303, 10%, 53%);
+		margin-top: 0.5em;
+		margin-left: 230px;
+	}
+
+	#sec2-main {
+		display: flex;
+		flex-direction: column;
+		max-width: 350px;
+		position: relative;
+		margin-bottom: 80px;
+	}
+
+	.s2b3 {
+		margin-top: 20px;
+		margin-bottom: 0;
+		margin-right: 0;
+
+	}
+
+	.s2b2 {
+		margin-top: 20px;
+		margin-bottom: 0;
+		margin-right: 0;
+	}
+
+	.sec2-box {
+		background-color: hsl(300, 43%, 22%);
+		width: 350px;
+		height: 220px;
+		border-radius: 8px;
+	}
+
+	.bot-img {
+		position: absolute;
+		top: 85px;
+		right: 0;
+		display: none;
+	}
+
+	.s2b1 {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
 }
