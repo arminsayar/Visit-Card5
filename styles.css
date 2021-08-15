@@ -251,6 +251,7 @@ body {
 		width: 350px;
 		height: 220px;
 		border-radius: 8px;
+		position: relative;
 	}
 
 	.bot-img {
@@ -263,6 +264,13 @@ body {
 	.s2b1 {
 		margin-left: 0;
 		margin-right: 0;
+	}
+	.s2t2 {
+		top: 43px;
+	}
+	
+	.s2t3 {
+		top: 43px;
 	}
 
 }
